@@ -1,5 +1,5 @@
 # Database-for-Alpha-Import-company
-Project's needs:
+Project's needs(schema,er,relational,sqlDiagram,data):
 The company Alpha import company (SA) has to its customers a set of products which
 is supplied by various suppliers and wants to develop a monitoring system
 of its warehouse. The products have a code, name, description, price and quantity (balance in
@@ -19,7 +19,7 @@ orders, which are described by a code, the order date and the
 shipping date. An order consists of a set of products, along with
 their quantity (often called individual purchase markets).
 
-The project answers to those sql questions(file queries):
+The project answers to those sql questions(file queries and relational algebra):
 1) Show a list of customers with their code, their VAT number, their name, address
 and their phone. *
 2) For each customer code show the payments he has made in the period 12/5/2012 to
@@ -46,7 +46,7 @@ geographic area.
 14) Show the order code that contains at least three products with the public
 supplier.
 
-The project also contains:
+The project also contains(stored procedures and .java files):
 (1) Write a stored procedure that will accept the code of a geographical area and will
 prints the number of customers in this area.
 (2) Write a stored procedure that will accept the product code and two dates and
